@@ -439,7 +439,7 @@ public class Calc extends javax.swing.JFrame {
     }//GEN-LAST:event_DividirActionPerformed
 
     private void IgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IgualActionPerformed
-        numero2 = Double.parseDouble(entrada); // <--- CAMBIA ESTO
+        numero2 = Double.parseDouble(entrada); 
         pan.setText("");
         entrada = "";
         double resultado = 0;
